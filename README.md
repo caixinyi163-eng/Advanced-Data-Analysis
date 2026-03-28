@@ -1,4 +1,4 @@
-# Advanced-Data-Analysis
+# Forecasting Monthly Beer Production in Australia: A Comparative Time Series Analysis
 
 ## Library Versions
 
@@ -17,6 +17,7 @@
 ---
 
 ## Repository Structure
+```
 beer-production-analysis/
 │
 ├── data/
@@ -56,3 +57,4 @@ beer-production-analysis/
 │       ├── 07_model_summary_report.txt
 │       ├── 09_sarima_summary_report.txt
 │       └── 10_prophet_summary_report.txt
+```
