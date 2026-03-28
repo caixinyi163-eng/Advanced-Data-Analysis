@@ -1,5 +1,32 @@
 # Forecasting Monthly Beer Production in Australia: A Comparative Time Series Analysis
 
+## What the Project Does
+
+This project **compares three time series forecasting models** (ARIMA, SARIMA, and Facebook Prophet) to predict monthly beer production in Australia from 1956 to 1995.
+
+### Key Activities:
+
+1. **Analyzes historical data** (476 months) to identify patterns:
+   - Strong seasonal cycles (peak in December, low in June)
+   - Long-term trend (growth until 1980s, then decline)
+
+2. **Builds and evaluates three forecasting models**:
+   - **ARIMA(4,1,2)**: Baseline model, MAPE = 10.10%
+   - **SARIMA(2,1,2)(0,1,1)**: Seasonal model, MAPE = 6.13% (best accuracy)
+   - **Prophet**: Automated model, MAPE = 6.33% (most interpretable)
+
+3. **Generates 24-month forecasts** and visualizes results with confidence intervals
+
+4. **Provides insights** for production planning and inventory management
+
+### Output:
+- 10+ visualizations (time series, decomposition, forecasts)
+- Model performance comparison tables
+- Cleaned dataset and forecast results (CSV files)
+- Summary reports
+---
+
+
 ## Library Versions
 
 | Package | Version |
