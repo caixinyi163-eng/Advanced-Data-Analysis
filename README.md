@@ -26,7 +26,11 @@ This project **compares three time series forecasting models** (ARIMA, SARIMA, a
 - Summary reports
 ---
 
+## Execution Guide
 
+Run the cells in order.
+
+---
 ## Library Versions
 
 | Package | Version |
