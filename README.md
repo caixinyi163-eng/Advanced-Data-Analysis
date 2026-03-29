@@ -55,33 +55,35 @@ beer-production-analysis/
 │
 ├── outputs/
 │   ├── plots/
-│   │   ├── 01_main_time_series.png
-│   │   ├── 02_production_distribution.png
-│   │   ├── 03_production_by_decade.png
-│   │   ├── 04_monthly_production_pattern.png
-│   │   ├── 05_recent_years_comparison.png
-│   │   ├── 06_trend_component.png
-│   │   ├── 07_seasonal_component.png
-│   │   ├── 08_residual_component.png
-│   │   ├── 09_seasonal_decomposition_summary.png
-│   │   ├── 10_residual_analysis.png
-│   │   ├── 02_acf_pacf_analysis.png
-│   │   ├── 04_model_diagnostics.png
-│   │   ├── 05_final_forecast.png
-│   │   ├── 09_final_sarima_forecast.png
-│   │   └── 10_prophet_analysis.png
+│   │   ├── 01_main_time_series.png              # DATA LOADING AND PREPROCESSING
+│   │   ├── 02_production_distribution.png       # DATA LOADING AND PREPROCESSING
+│   │   ├── 03_production_by_decade.png          # DATA LOADING AND PREPROCESSING
+│   │   ├── 04_monthly_production_pattern.png    # DATA LOADING AND PREPROCESSING
+│   │   ├── 05_recent_years_comparison.png       # DATA LOADING AND PREPROCESSING
+│   │   ├── 06_trend_component.png               # DATA LOADING AND PREPROCESSING
+│   │   ├── 07_seasonal_component.png            # DATA LOADING AND PREPROCESSING
+│   │   ├── 08_residual_component.png            # DATA LOADING AND PREPROCESSING
+│   │   ├── 09_seasonal_decomposition_summary.png # DATA LOADING AND PREPROCESSING
+│   │   ├── 10_residual_analysis.png             # DATA LOADING AND PREPROCESSING
+│   │   ├── 02_acf_pacf_analysis.png             # ARIMA
+│   │   ├── 04_model_diagnostics.png             # ARIMA
+│   │   ├── 05_final_forecast.png                # ARIMA
+│   │   ├── 09_final_sarima_forecast.png         # SARIMA
+│   │   └── 10_prophet_analysis.png              # Prophet
 │   │
 │   ├── csv/
-│   │   ├── monthly-beer-production-cleaned.csv
-│   │   ├── 06_future_forecast.csv
-│   │   ├── 09_sarima_test_predictions.csv
-│   │   ├── 09_sarima_future_forecast.csv
-│   │   ├── 10_prophet_test_predictions.csv
-│   │   └── 10_prophet_future_forecast.csv
+│   │   ├── monthly-beer-production-cleaned.csv  # DATA LOADING AND PREPROCESSING
+│   │   ├── 06_future_forecast.csv               # ARIMA
+│   │   ├── 09_sarima_test_predictions.csv       # SARIMA
+│   │   ├── 09_sarima_future_forecast.csv        # SARIMA
+│   │   ├── 10_prophet_test_predictions.csv      # Prophet
+│   │   └── 10_prophet_future_forecast.csv       # Prophet
 │   │
 │   └── txt/
-│       ├── 03_model_summary.txt
-│       ├── 07_model_summary_report.txt
-│       ├── 09_sarima_summary_report.txt
-│       └── 10_prophet_summary_report.txt
+│       ├── 03_model_summary.txt                 # ARIMA
+│       ├── 07_model_summary_report.txt          # ARIMA
+│       ├── 09_sarima_summary_report.txt         # SARIMA
+│       └── 10_prophet_summary_report.txt        # Prophet
+
+
 ```
